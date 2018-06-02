@@ -8,8 +8,9 @@ TODO：
 
 * 请问怎么让 https://blinkdl.github.io 自动识别链接转为可以点击的，多谢多谢。
 * 翻译和概括各篇论文的核心思想，加入图片说明。这里的许多论文在网上已有介绍文章，可加入链接。
-* 希望能逐步提供这里的所有 SOTA 模型。最好能直接在大家的浏览器中运行。
+* 逐步提供这里的所有 SOTA 模型。最好能直接在大家的浏览器中运行。从前写过一个简单的浏览器运行库 https://github.com/BlinkDL/BlinkDL 可逐步改进。
 * 补充 NLP / 语音 等等的 SOTA 结果。
+* 提供 速度-性能 对比图。回顾经典模型。
 
 ## CV - 二维图像任务
 
@@ -136,9 +137,13 @@ Evaluation of Dense 3D Reconstruction from 2D Face Images in the Wild http://arx
 This paper investigates the evaluation of dense 3D face reconstruction from a single 2D image in the wild. To this end, we organise a competition that provides a new benchmark dataset that contains 2000 2D facial images of 135 subjects as well as their 3D ground truth face scans. In contrast to previous competitions or challenges, the aim of this new benchmark dataset is to evaluate the accuracy of a 3D dense face reconstruction algorithm using real, accurate and high-resolution 3D ground truth face scans. In addition to the dataset, we provide a standard protocol as well as a Python script for the evaluation. Last, we report the results obtained by three state-of-the-art 3D face reconstruction systems on the new benchmark dataset. The competition is organised along with the 2018 13th IEEE Conference on Automatic Face & Gesture Recognition.
 
 另见：
+
 https://arxiv.org/abs/1803.07835
+
 https://arxiv.org/abs/1712.05083
+
 https://arxiv.org/abs/1803.04758
+
 https://arxiv.org/abs/1803.11366
 
 ### Image-to-3D-Model【太多了】
