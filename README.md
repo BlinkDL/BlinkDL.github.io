@@ -1,6 +1,6 @@
 # State of the Art
 
-希望方便大家了解和复现 AI / ML / DL / RL / CV / NLP 中的 SOTA 结果，方法和技巧。
+希望方便大家了解和复现 AI / ML / DL / RL / CV / NLP 中的 SotA 结果，方法和技巧。
 
 更多参考：https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems
 
@@ -8,11 +8,13 @@ TODO：
 
 * 请问怎么让 https://blinkdl.github.io 自动识别链接转为可以点击的，多谢多谢。
 * 翻译和概括各篇论文的核心思想，加入图片说明。这里的许多论文在网上已有介绍文章，可加入链接。
-* 逐步提供这里的所有 SOTA 模型。最好能直接在大家的浏览器中运行。从前写过一个简单的浏览器运行库 https://github.com/BlinkDL/BlinkDL 可逐步改进。
-* 补充 NLP / 语音 等等的 SOTA 结果。
+* 逐步提供这里的所有 SotA 模型。最好能直接在大家的浏览器中运行。从前写过一个简单的浏览器运行库 https://github.com/BlinkDL/BlinkDL 可逐步改进。
+* 补充 NLP / 语音 等等的 SotA 结果，以及深度学习理论/训练方法的值得关注的进展。
 * 提供 速度-性能 对比图。回顾经典模型。
 
 ## CV - 二维图像任务
+
+目前在图像模型中已流行加入 attention，效果显著，大家可关注。代价是对训练的算力要求越来越高。
 
 ### Image Data Augmentation
 
