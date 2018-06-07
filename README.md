@@ -152,8 +152,7 @@ challenging ImageNet dataset. Visualization of the attention layers shows that
 the generator leverages neighborhoods that correspond to object shapes rather
 than local regions of fixed shape.
 
-#### Progressive Growing of GANs for Improved Quality, Stability, and
-  Variation <a href="http://arxiv.org/abs/1710.10196" target="_blank">1710.10196</a> （高分辨率）
+#### Progressive Growing of GANs for Improved Quality, Stability, and Variation <a href="http://arxiv.org/abs/1710.10196" target="_blank">1710.10196</a> （高分辨率）
 <a href="http://arxiv.org/abs/1710.10196" target="_blank">![1710.10196v3](http://www.arxiv-sanity.com/static/thumbs/1710.10196v3.pdf.jpg)</a>
 We describe a new training methodology for generative adversarial networks.
 The key idea is to grow both the generator and discriminator progressively:
@@ -331,8 +330,7 @@ challenge winners. We hope our simple and effective approach will serve as a
 solid baseline and help ease future research in instance-level recognition.
 Code has been made available at: https://github.com/facebookresearch/Detectron
 
-#### Encoder-Decoder with Atrous Separable Convolution for Semantic Image
-  Segmentation <a href="http://arxiv.org/abs/1802.02611" target="_blank">1802.02611</a> （只分割出类别）
+#### Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation <a href="http://arxiv.org/abs/1802.02611" target="_blank">1802.02611</a> （只分割出类别）
 <a href="http://arxiv.org/abs/1802.02611" target="_blank">![1802.02611v2](http://www.arxiv-sanity.com/static/thumbs/1802.02611v2.pdf.jpg)</a>
 Spatial pyramid pooling module or encode-decoder structure are used in deep
 neural networks for semantic segmentation task. The former networks are able to
@@ -354,8 +352,7 @@ https://github.com/tensorflow/models/tree/master/research/deeplab.
 
 ### Caption-to-Image
 
-#### Photographic Text-to-Image Synthesis with a Hierarchically-nested
-  Adversarial Network <a href="http://arxiv.org/abs/1802.09178" target="_blank">1802.09178</a>
+#### Photographic Text-to-Image Synthesis with a Hierarchically-nested Adversarial Network <a href="http://arxiv.org/abs/1802.09178" target="_blank">1802.09178</a>
 <a href="http://arxiv.org/abs/1802.09178" target="_blank">![1802.09178v2](http://www.arxiv-sanity.com/static/thumbs/1802.09178v2.pdf.jpg)</a>
 This paper presents a novel method to deal with the challenging task of
 generating photographic images conditioned on semantic image descriptions. Our
@@ -372,8 +369,7 @@ With extensive experimental validation on three public datasets, our method
 significantly improves previous state of the arts on all datasets over
 different evaluation metrics.
 
-#### AttnGAN: Fine-Grained Text to Image Generation with Attentional
-  Generative Adversarial Networks <a href="http://arxiv.org/abs/1711.10485" target="_blank">1711.10485</a>
+#### AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks <a href="http://arxiv.org/abs/1711.10485" target="_blank">1711.10485</a>
 <a href="http://arxiv.org/abs/1711.10485" target="_blank">![1711.10485v1](http://www.arxiv-sanity.com/static/thumbs/1711.10485v1.pdf.jpg)</a>
 In this paper, we propose an Attentional Generative Adversarial Network
 (AttnGAN) that allows attention-driven, multi-stage refinement for fine-grained
@@ -392,8 +388,7 @@ image.
 
 ### Image-to-Caption / Image Q&A
 
-#### Bottom-Up and Top-Down Attention for Image Captioning and Visual
-  Question Answering <a href="http://arxiv.org/abs/1707.07998" target="_blank">1707.07998</a>
+#### Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering <a href="http://arxiv.org/abs/1707.07998" target="_blank">1707.07998</a>
 <a href="http://arxiv.org/abs/1707.07998" target="_blank">![1707.07998v3](http://www.arxiv-sanity.com/static/thumbs/1707.07998v3.pdf.jpg)</a>
 Top-down visual attention mechanisms have been used extensively in image
 captioning and visual question answering (VQA) to enable deeper image
@@ -428,8 +423,7 @@ reason about entities and their relations.
 
 ### Depth Estimation
 
-#### Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps
-  with Accurate Object Boundaries <a href="http://arxiv.org/abs/1803.08673" target="_blank">1803.08673</a> （Review）
+#### Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps with Accurate Object Boundaries <a href="http://arxiv.org/abs/1803.08673" target="_blank">1803.08673</a> （Review）
 <a href="http://arxiv.org/abs/1803.08673" target="_blank">![1803.08673v1](http://www.arxiv-sanity.com/static/thumbs/1803.08673v1.pdf.jpg)</a>
 We revisit the problem of estimating depth of a scene from its single RGB
 image. Despite the recent success of deep learning based methods, we show that
@@ -464,8 +458,7 @@ Recognition.
 
 另见：
 
-#### Joint 3D Face Reconstruction and Dense Alignment with Position Map
-  Regression Network <a href="http://arxiv.org/abs/1803.07835" target="_blank">1803.07835</a>
+#### Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network <a href="http://arxiv.org/abs/1803.07835" target="_blank">1803.07835</a>
 <a href="http://arxiv.org/abs/1803.07835" target="_blank">![1803.07835v1](http://www.arxiv-sanity.com/static/thumbs/1803.07835v1.pdf.jpg)</a>
 We propose a straightforward method that simultaneously reconstructs the 3D
 facial structure and provides dense alignment. To achieve this, we design a 2D
@@ -514,8 +507,7 @@ smartphone or webcam, our method enables everyone to create their own fully
 animatable digital double, e.g., for social VR applications or virtual try-on
 for online fashion shopping.
 
-#### Disentangling Features in 3D Face Shapes for Joint Face Reconstruction
-  and Recognition <a href="http://arxiv.org/abs/1803.11366" target="_blank">1803.11366</a>
+#### Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition <a href="http://arxiv.org/abs/1803.11366" target="_blank">1803.11366</a>
 <a href="http://arxiv.org/abs/1803.11366" target="_blank">![1803.11366v1](http://www.arxiv-sanity.com/static/thumbs/1803.11366v1.pdf.jpg)</a>
 This paper proposes an encoder-decoder network to disentangle shape features
 during 3D face reconstruction from single 2D images, such that the tasks of
