@@ -2,6 +2,8 @@
 
 希望方便大家了解和复现 AI / ML / DL / RL / CV / NLP 中的 SotA 结果，方法和技巧。
 
+如您希望参与，可在此处 star & pull request：<a href="https://github.com/BlinkDL/BlinkDL.github.io" target="_blank">https://github.com/BlinkDL/BlinkDL.github.io</a>
+
 更多参考：<a href="https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems" target="_blank">https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems</a>
 
 TODO：
