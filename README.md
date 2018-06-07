@@ -2,8 +2,6 @@
 
 希望方便大家了解和复现 AI / ML / DL / RL / CV / NLP 中的 SotA 结果，方法和技巧。
 
-如您希望参与，欢迎在此处 star & pull request：<a href="https://github.com/BlinkDL/BlinkDL.github.io" target="_blank">https://github.com/BlinkDL/BlinkDL.github.io</a>
-
 更多参考：<a href="https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems" target="_blank">https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems</a>
 
 TODO：
@@ -19,8 +17,8 @@ TODO：
 
 ### Image Data Augmentation
 
-AutoAugment: Learning Augmentation Policies from Data <a href="http://arxiv.org/abs/1805.09501" target="_blank">http://arxiv.org/abs/1805.09501</a>
-![1805.09501v1](http://www.arxiv-sanity.com/static/thumbs/1805.09501v1.pdf.jpg)
+#### AutoAugment: Learning Augmentation Policies from Data <a href="http://arxiv.org/abs/1805.09501" target="_blank">1805.09501</a>
+<a href="http://arxiv.org/abs/1805.09501" target="_blank">![1805.09501v1](http://www.arxiv-sanity.com/static/thumbs/1805.09501v1.pdf.jpg)</a>
 In this paper, we take a closer look at data augmentation for images, and
 describe a simple procedure called AutoAugment to search for improved data
 augmentation policies. Our key insight is to create a search space of data
@@ -45,8 +43,8 @@ weights pre-trained on additional data.
 
 ### Image Super-resolution
 
-Deep Back-Projection Networks For Super-Resolution <a href="http://arxiv.org/abs/1803.02735" target="_blank">http://arxiv.org/abs/1803.02735</a>
-![1803.02735v1](http://www.arxiv-sanity.com/static/thumbs/1803.02735v1.pdf.jpg)
+#### Deep Back-Projection Networks For Super-Resolution <a href="http://arxiv.org/abs/1803.02735" target="_blank">1803.02735</a>
+<a href="http://arxiv.org/abs/1803.02735" target="_blank">![1803.02735v1](http://www.arxiv-sanity.com/static/thumbs/1803.02735v1.pdf.jpg)</a>
 The feed-forward architectures of recently proposed deep super-resolution
 networks learn representations of low-resolution inputs, and the non-linear
 mapping from those to high-resolution output. However, this approach does not
@@ -61,8 +59,8 @@ allows us to reconstruct further improve super-resolution, yielding superior
 results and in particular establishing new state of the art results for large
 scaling factors such as 8x across multiple data sets.
 
-Enhanced Deep Residual Networks for Single Image Super-Resolution <a href="http://arxiv.org/abs/1707.02921" target="_blank">http://arxiv.org/abs/1707.02921</a>
-![1707.02921v1](http://www.arxiv-sanity.com/static/thumbs/1707.02921v1.pdf.jpg)
+#### Enhanced Deep Residual Networks for Single Image Super-Resolution <a href="http://arxiv.org/abs/1707.02921" target="_blank">1707.02921</a>
+<a href="http://arxiv.org/abs/1707.02921" target="_blank">![1707.02921v1](http://www.arxiv-sanity.com/static/thumbs/1707.02921v1.pdf.jpg)</a>
 Recent research on super-resolution has progressed with the development of
 deep convolutional neural networks (DCNN). In particular, residual learning
 techniques exhibit improved performance. In this paper, we develop an enhanced
@@ -79,8 +77,8 @@ winning the NTIRE2017 Super-Resolution Challenge.
 
 ### Image Denoise / Demosaic
 
-Learning to See in the Dark <a href="http://arxiv.org/abs/1805.01934" target="_blank">http://arxiv.org/abs/1805.01934</a>
-![1805.01934v1](http://www.arxiv-sanity.com/static/thumbs/1805.01934v1.pdf.jpg)
+#### Learning to See in the Dark <a href="http://arxiv.org/abs/1805.01934" target="_blank">1805.01934</a>
+<a href="http://arxiv.org/abs/1805.01934" target="_blank">![1805.01934v1](http://www.arxiv-sanity.com/static/thumbs/1805.01934v1.pdf.jpg)</a>
 Imaging in low light is challenging due to low photon count and low SNR.
 Short-exposure images suffer from noise, while long exposure can induce blur
 and is often impractical. A variety of denoising, deblurring, and enhancement
@@ -99,8 +97,8 @@ https://youtu.be/qWKUFK7MWvg
 
 ### Image Deblurring
 
-Learning a Discriminative Prior for Blind Image Deblurring <a href="http://arxiv.org/abs/1803.03363" target="_blank">http://arxiv.org/abs/1803.03363</a>
-![1803.03363v2](http://www.arxiv-sanity.com/static/thumbs/1803.03363v2.pdf.jpg)
+#### Learning a Discriminative Prior for Blind Image Deblurring <a href="http://arxiv.org/abs/1803.03363" target="_blank">1803.03363</a>
+<a href="http://arxiv.org/abs/1803.03363" target="_blank">![1803.03363v2](http://www.arxiv-sanity.com/static/thumbs/1803.03363v2.pdf.jpg)</a>
 We present an effective blind image deblurring method based on a data-driven
 discriminative prior.Our work is motivated by the fact that a good image prior
 should favor clear images over blurred images.In this work, we formulate the
@@ -119,8 +117,8 @@ well as domain-specific image deblurring approaches.
 
 ### Image Inpaint
 
-Image Inpainting for Irregular Holes Using Partial Convolutions <a href="http://arxiv.org/abs/1804.07723" target="_blank">http://arxiv.org/abs/1804.07723</a>
-![1804.07723v1](http://www.arxiv-sanity.com/static/thumbs/1804.07723v1.pdf.jpg)
+#### Image Inpainting for Irregular Holes Using Partial Convolutions <a href="http://arxiv.org/abs/1804.07723" target="_blank">1804.07723</a>
+<a href="http://arxiv.org/abs/1804.07723" target="_blank">![1804.07723v1](http://www.arxiv-sanity.com/static/thumbs/1804.07723v1.pdf.jpg)</a>
 Existing deep learning based image inpainting methods use a standard
 convolutional network over the corrupted image, using convolutional filter
 responses conditioned on both valid pixels as well as the substitute values in
@@ -136,8 +134,8 @@ approach.
 
 ### Image Generation
 
-Self-Attention Generative Adversarial Networks <a href="http://arxiv.org/abs/1805.08318" target="_blank">http://arxiv.org/abs/1805.08318</a>
-![1805.08318v1](http://www.arxiv-sanity.com/static/thumbs/1805.08318v1.pdf.jpg)
+#### Self-Attention Generative Adversarial Networks <a href="http://arxiv.org/abs/1805.08318" target="_blank">1805.08318</a>
+<a href="http://arxiv.org/abs/1805.08318" target="_blank">![1805.08318v1](http://www.arxiv-sanity.com/static/thumbs/1805.08318v1.pdf.jpg)</a>
 In this paper, we propose the Self-Attention Generative Adversarial Network
 (SAGAN) which allows attention-driven, long-range dependency modeling for image
 generation tasks. Traditional convolutional GANs generate high-resolution
@@ -154,9 +152,9 @@ challenging ImageNet dataset. Visualization of the attention layers shows that
 the generator leverages neighborhoods that correspond to object shapes rather
 than local regions of fixed shape.
 
-Progressive Growing of GANs for Improved Quality, Stability, and
-  Variation <a href="http://arxiv.org/abs/1710.10196" target="_blank">http://arxiv.org/abs/1710.10196</a> （高分辨率）
-![1710.10196v3](http://www.arxiv-sanity.com/static/thumbs/1710.10196v3.pdf.jpg)
+#### Progressive Growing of GANs for Improved Quality, Stability, and
+  Variation <a href="http://arxiv.org/abs/1710.10196" target="_blank">1710.10196</a> （高分辨率）
+<a href="http://arxiv.org/abs/1710.10196" target="_blank">![1710.10196v3](http://www.arxiv-sanity.com/static/thumbs/1710.10196v3.pdf.jpg)</a>
 We describe a new training methodology for generative adversarial networks.
 The key idea is to grow both the generator and discriminator progressively:
 starting from a low resolution, we add new layers that model increasingly fine
@@ -170,8 +168,8 @@ and discriminator. Finally, we suggest a new metric for evaluating GAN results,
 both in terms of image quality and variation. As an additional contribution, we
 construct a higher-quality version of the CelebA dataset.
 
-Disentangled Person Image Generation <a href="http://arxiv.org/abs/1712.02621" target="_blank">http://arxiv.org/abs/1712.02621</a> （特定领域）
-![1712.02621v3](http://www.arxiv-sanity.com/static/thumbs/1712.02621v3.pdf.jpg)
+#### Disentangled Person Image Generation <a href="http://arxiv.org/abs/1712.02621" target="_blank">1712.02621</a> （特定领域）
+<a href="http://arxiv.org/abs/1712.02621" target="_blank">![1712.02621v3](http://www.arxiv-sanity.com/static/thumbs/1712.02621v3.pdf.jpg)</a>
 Generating novel, yet realistic, images of persons is a challenging task due
 to the complex interplay between the different image factors, such as the
 foreground, background and pose information. In this work, we aim at generating
@@ -194,8 +192,8 @@ re-identification task.
 
 ### Image-to-image Transfer
 
-Multimodal Unsupervised Image-to-Image Translation <a href="http://arxiv.org/abs/1804.04732" target="_blank">http://arxiv.org/abs/1804.04732</a>
-![1804.04732v1](http://www.arxiv-sanity.com/static/thumbs/1804.04732v1.pdf.jpg)
+#### Multimodal Unsupervised Image-to-Image Translation <a href="http://arxiv.org/abs/1804.04732" target="_blank">1804.04732</a>
+<a href="http://arxiv.org/abs/1804.04732" target="_blank">![1804.04732v1](http://www.arxiv-sanity.com/static/thumbs/1804.04732v1.pdf.jpg)</a>
 Unsupervised image-to-image translation is an important and challenging
 problem in computer vision. Given an image in the source domain, the goal is to
 learn the conditional distribution of corresponding images in the target
@@ -217,8 +215,8 @@ Code and pretrained models are available at https://github.com/nvlabs/MUNIT.
 
 ### Style Transfer
 
-Neural Style Transfer: A Review <a href="http://arxiv.org/abs/1705.04058" target="_blank">http://arxiv.org/abs/1705.04058</a> （Review）
-![1705.04058v5](http://www.arxiv-sanity.com/static/thumbs/1705.04058v5.pdf.jpg)
+#### Neural Style Transfer: A Review <a href="http://arxiv.org/abs/1705.04058" target="_blank">1705.04058</a> （Review）
+<a href="http://arxiv.org/abs/1705.04058" target="_blank">![1705.04058v5](http://www.arxiv-sanity.com/static/thumbs/1705.04058v5.pdf.jpg)</a>
 The seminal work of Gatys et al. demonstrated the power of Convolutional
 Neural Networks (CNN) in creating artistic imagery by separating and
 recombining image content and style. This process of using CNN to render a
@@ -232,8 +230,8 @@ for future research.
  
 ### Image Classification
 
-Learning Transferable Architectures for Scalable Image Recognition <a href="http://arxiv.org/abs/1707.07012" target="_blank">http://arxiv.org/abs/1707.07012</a>
-![1707.07012v4](http://www.arxiv-sanity.com/static/thumbs/1707.07012v4.pdf.jpg)
+#### Learning Transferable Architectures for Scalable Image Recognition <a href="http://arxiv.org/abs/1707.07012" target="_blank">1707.07012</a>
+<a href="http://arxiv.org/abs/1707.07012" target="_blank">![1707.07012v4](http://www.arxiv-sanity.com/static/thumbs/1707.07012v4.pdf.jpg)</a>
 Developing neural network image classification models often requires
 significant architecture engineering. In this paper, we study a method to learn
 the model architectures directly on the dataset of interest. As this approach
@@ -260,8 +258,8 @@ platforms. Finally, the learned features by NASNet used with the Faster-RCNN
 framework surpass state-of-the-art by 4.0% achieving 43.1% mAP on the COCO
 dataset.
 
-Squeeze-and-Excitation Networks <a href="http://arxiv.org/abs/1709.01507" target="_blank">http://arxiv.org/abs/1709.01507</a>
-![1709.01507v2](http://www.arxiv-sanity.com/static/thumbs/1709.01507v2.pdf.jpg)
+#### Squeeze-and-Excitation Networks <a href="http://arxiv.org/abs/1709.01507" target="_blank">1709.01507</a>
+<a href="http://arxiv.org/abs/1709.01507" target="_blank">![1709.01507v2](http://www.arxiv-sanity.com/static/thumbs/1709.01507v2.pdf.jpg)</a>
 Convolutional neural networks are built upon the convolution operation, which
 extracts informative features by fusing spatial and channel-wise information
 together within local receptive fields. In order to boost the representational
@@ -282,8 +280,8 @@ https://github.com/hujie-frank/SENet.
 
 ### Object Detection
 
-Focal Loss for Dense Object Detection <a href="http://arxiv.org/abs/1708.02002" target="_blank">http://arxiv.org/abs/1708.02002</a> （更准）
-![1708.02002v2](http://www.arxiv-sanity.com/static/thumbs/1708.02002v2.pdf.jpg)
+#### Focal Loss for Dense Object Detection <a href="http://arxiv.org/abs/1708.02002" target="_blank">1708.02002</a> （更准）
+<a href="http://arxiv.org/abs/1708.02002" target="_blank">![1708.02002v2](http://www.arxiv-sanity.com/static/thumbs/1708.02002v2.pdf.jpg)</a>
 The highest accuracy object detectors to date are based on a two-stage
 approach popularized by R-CNN, where a classifier is applied to a sparse set of
 candidate object locations. In contrast, one-stage detectors that are applied
@@ -302,8 +300,8 @@ loss, RetinaNet is able to match the speed of previous one-stage detectors
 while surpassing the accuracy of all existing state-of-the-art two-stage
 detectors. Code is at: https://github.com/facebookresearch/Detectron.
 
-YOLOv3: An Incremental Improvement <a href="http://arxiv.org/abs/1804.02767" target="_blank">http://arxiv.org/abs/1804.02767</a> （更快）
-![1804.02767v1](http://www.arxiv-sanity.com/static/thumbs/1804.02767v1.pdf.jpg)
+#### YOLOv3: An Incremental Improvement <a href="http://arxiv.org/abs/1804.02767" target="_blank">1804.02767</a> （更快）
+<a href="http://arxiv.org/abs/1804.02767" target="_blank">![1804.02767v1](http://www.arxiv-sanity.com/static/thumbs/1804.02767v1.pdf.jpg)</a>
 We present some updates to YOLO! We made a bunch of little design changes to
 make it better. We also trained this new network that's pretty swell. It's a
 little bigger than last time but more accurate. It's still fast though, don't
@@ -315,8 +313,8 @@ all the code is online at https://pjreddie.com/yolo/
 
 ### Image Segmentation
 
-Mask R-CNN <a href="http://arxiv.org/abs/1703.06870" target="_blank">http://arxiv.org/abs/1703.06870</a> （可分割出对象）
-![1703.06870v3](http://www.arxiv-sanity.com/static/thumbs/1703.06870v3.pdf.jpg)
+#### Mask R-CNN <a href="http://arxiv.org/abs/1703.06870" target="_blank">1703.06870</a> （可分割出对象）
+<a href="http://arxiv.org/abs/1703.06870" target="_blank">![1703.06870v3](http://www.arxiv-sanity.com/static/thumbs/1703.06870v3.pdf.jpg)</a>
 We present a conceptually simple, flexible, and general framework for object
 instance segmentation. Our approach efficiently detects objects in an image
 while simultaneously generating a high-quality segmentation mask for each
@@ -333,9 +331,9 @@ challenge winners. We hope our simple and effective approach will serve as a
 solid baseline and help ease future research in instance-level recognition.
 Code has been made available at: https://github.com/facebookresearch/Detectron
 
-Encoder-Decoder with Atrous Separable Convolution for Semantic Image
-  Segmentation <a href="http://arxiv.org/abs/1802.02611" target="_blank">http://arxiv.org/abs/1802.02611</a> （只分割出类别）
-![1802.02611v2](http://www.arxiv-sanity.com/static/thumbs/1802.02611v2.pdf.jpg)
+#### Encoder-Decoder with Atrous Separable Convolution for Semantic Image
+  Segmentation <a href="http://arxiv.org/abs/1802.02611" target="_blank">1802.02611</a> （只分割出类别）
+<a href="http://arxiv.org/abs/1802.02611" target="_blank">![1802.02611v2](http://www.arxiv-sanity.com/static/thumbs/1802.02611v2.pdf.jpg)</a>
 Spatial pyramid pooling module or encode-decoder structure are used in deep
 neural networks for semantic segmentation task. The former networks are able to
 encode multi-scale contextual information by probing the incoming features with
@@ -356,9 +354,9 @@ https://github.com/tensorflow/models/tree/master/research/deeplab.
 
 ### Caption-to-Image
 
-Photographic Text-to-Image Synthesis with a Hierarchically-nested
-  Adversarial Network <a href="http://arxiv.org/abs/1802.09178" target="_blank">http://arxiv.org/abs/1802.09178</a>
-![1802.09178v2](http://www.arxiv-sanity.com/static/thumbs/1802.09178v2.pdf.jpg)
+#### Photographic Text-to-Image Synthesis with a Hierarchically-nested
+  Adversarial Network <a href="http://arxiv.org/abs/1802.09178" target="_blank">1802.09178</a>
+<a href="http://arxiv.org/abs/1802.09178" target="_blank">![1802.09178v2](http://www.arxiv-sanity.com/static/thumbs/1802.09178v2.pdf.jpg)</a>
 This paper presents a novel method to deal with the challenging task of
 generating photographic images conditioned on semantic image descriptions. Our
 method introduces accompanying hierarchical-nested adversarial objectives
@@ -374,9 +372,9 @@ With extensive experimental validation on three public datasets, our method
 significantly improves previous state of the arts on all datasets over
 different evaluation metrics.
 
-AttnGAN: Fine-Grained Text to Image Generation with Attentional
-  Generative Adversarial Networks <a href="http://arxiv.org/abs/1711.10485" target="_blank">http://arxiv.org/abs/1711.10485</a>
-![1711.10485v1](http://www.arxiv-sanity.com/static/thumbs/1711.10485v1.pdf.jpg)
+#### AttnGAN: Fine-Grained Text to Image Generation with Attentional
+  Generative Adversarial Networks <a href="http://arxiv.org/abs/1711.10485" target="_blank">1711.10485</a>
+<a href="http://arxiv.org/abs/1711.10485" target="_blank">![1711.10485v1](http://www.arxiv-sanity.com/static/thumbs/1711.10485v1.pdf.jpg)</a>
 In this paper, we propose an Attentional Generative Adversarial Network
 (AttnGAN) that allows attention-driven, multi-stage refinement for fine-grained
 text-to-image generation. With a novel attentional generative network, the
@@ -394,9 +392,9 @@ image.
 
 ### Image-to-Caption / Image Q&A
 
-Bottom-Up and Top-Down Attention for Image Captioning and Visual
-  Question Answering <a href="http://arxiv.org/abs/1707.07998" target="_blank">http://arxiv.org/abs/1707.07998</a>
-![1707.07998v3](http://www.arxiv-sanity.com/static/thumbs/1707.07998v3.pdf.jpg)
+#### Bottom-Up and Top-Down Attention for Image Captioning and Visual
+  Question Answering <a href="http://arxiv.org/abs/1707.07998" target="_blank">1707.07998</a>
+<a href="http://arxiv.org/abs/1707.07998" target="_blank">![1707.07998v3](http://www.arxiv-sanity.com/static/thumbs/1707.07998v3.pdf.jpg)</a>
 Top-down visual attention mechanisms have been used extensively in image
 captioning and visual question answering (VQA) to enable deeper image
 understanding through fine-grained analysis and even multiple steps of
@@ -412,8 +410,8 @@ state-of-the-art for the task, achieving CIDEr / SPICE / BLEU-4 scores of
 the method, applying the same approach to VQA we obtain first place in the 2017
 VQA Challenge.
 
-A simple neural network module for relational reasoning <a href="http://arxiv.org/abs/1706.01427" target="_blank">http://arxiv.org/abs/1706.01427</a>
-![1706.01427v1](http://www.arxiv-sanity.com/static/thumbs/1706.01427v1.pdf.jpg)
+#### A simple neural network module for relational reasoning <a href="http://arxiv.org/abs/1706.01427" target="_blank">1706.01427</a>
+<a href="http://arxiv.org/abs/1706.01427" target="_blank">![1706.01427v1](http://www.arxiv-sanity.com/static/thumbs/1706.01427v1.pdf.jpg)</a>
 Relational reasoning is a central component of generally intelligent
 behavior, but has proven difficult for neural networks to learn. In this paper
 we describe how to use Relation Networks (RNs) as a simple plug-and-play module
@@ -430,9 +428,9 @@ reason about entities and their relations.
 
 ### Depth Estimation
 
-Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps
-  with Accurate Object Boundaries <a href="http://arxiv.org/abs/1803.08673" target="_blank">http://arxiv.org/abs/1803.08673</a> （Review）
-![1803.08673v1](http://www.arxiv-sanity.com/static/thumbs/1803.08673v1.pdf.jpg)
+#### Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps
+  with Accurate Object Boundaries <a href="http://arxiv.org/abs/1803.08673" target="_blank">1803.08673</a> （Review）
+<a href="http://arxiv.org/abs/1803.08673" target="_blank">![1803.08673v1](http://www.arxiv-sanity.com/static/thumbs/1803.08673v1.pdf.jpg)</a>
 We revisit the problem of estimating depth of a scene from its single RGB
 image. Despite the recent success of deep learning based methods, we show that
 there is still room for improvement in two aspects by training a deep network
@@ -449,8 +447,8 @@ on benchmark datasets.
 
 ### Face-Image-to-3D-Model
 
-Evaluation of Dense 3D Reconstruction from 2D Face Images in the Wild <a href="http://arxiv.org/abs/1803.05536" target="_blank">http://arxiv.org/abs/1803.05536</a> （Review）
-![1803.05536v2](http://www.arxiv-sanity.com/static/thumbs/1803.05536v2.pdf.jpg)
+#### Evaluation of Dense 3D Reconstruction from 2D Face Images in the Wild <a href="http://arxiv.org/abs/1803.05536" target="_blank">1803.05536</a> （Review）
+<a href="http://arxiv.org/abs/1803.05536" target="_blank">![1803.05536v2](http://www.arxiv-sanity.com/static/thumbs/1803.05536v2.pdf.jpg)</a>
 This paper investigates the evaluation of dense 3D face reconstruction from a
 single 2D image in the wild. To this end, we organise a competition that
 provides a new benchmark dataset that contains 2000 2D facial images of 135
@@ -466,9 +464,9 @@ Recognition.
 
 另见：
 
-Joint 3D Face Reconstruction and Dense Alignment with Position Map
-  Regression Network <a href="http://arxiv.org/abs/1803.07835" target="_blank">http://arxiv.org/abs/1803.07835</a>
-![1803.07835v1](http://www.arxiv-sanity.com/static/thumbs/1803.07835v1.pdf.jpg)
+#### Joint 3D Face Reconstruction and Dense Alignment with Position Map
+  Regression Network <a href="http://arxiv.org/abs/1803.07835" target="_blank">1803.07835</a>
+<a href="http://arxiv.org/abs/1803.07835" target="_blank">![1803.07835v1](http://www.arxiv-sanity.com/static/thumbs/1803.07835v1.pdf.jpg)</a>
 We propose a straightforward method that simultaneously reconstructs the 3D
 facial structure and provides dense alignment. To achieve this, we design a 2D
 representation called UV position map which records the 3D shape of a complete
@@ -482,8 +480,8 @@ works. Experiments on multiple challenging datasets show that our method
 surpasses other state-of-the-art methods on both reconstruction and alignment
 tasks by a large margin.
 
-Extreme 3D Face Reconstruction: Seeing Through Occlusions <a href="http://arxiv.org/abs/1712.05083" target="_blank">http://arxiv.org/abs/1712.05083</a>
-![1712.05083v2](http://www.arxiv-sanity.com/static/thumbs/1712.05083v2.pdf.jpg)
+#### Extreme 3D Face Reconstruction: Seeing Through Occlusions <a href="http://arxiv.org/abs/1712.05083" target="_blank">1712.05083</a>
+<a href="http://arxiv.org/abs/1712.05083" target="_blank">![1712.05083v2](http://www.arxiv-sanity.com/static/thumbs/1712.05083v2.pdf.jpg)</a>
 Existing single view, 3D face reconstruction methods can produce beautifully
 detailed 3D results, but typically only for near frontal, unobstructed
 viewpoints. We describe a system designed to provide detailed 3D
@@ -500,8 +498,8 @@ invariance of our estimated facial details. We further provide numerous
 qualitative examples showing that our method produces detailed 3D face shapes
 in viewing conditions where existing state of the art often break down.
 
-Video Based Reconstruction of 3D People Models <a href="http://arxiv.org/abs/1803.04758" target="_blank">http://arxiv.org/abs/1803.04758</a>
-![1803.04758v3](http://www.arxiv-sanity.com/static/thumbs/1803.04758v3.pdf.jpg)
+#### Video Based Reconstruction of 3D People Models <a href="http://arxiv.org/abs/1803.04758" target="_blank">1803.04758</a>
+<a href="http://arxiv.org/abs/1803.04758" target="_blank">![1803.04758v3](http://www.arxiv-sanity.com/static/thumbs/1803.04758v3.pdf.jpg)</a>
 This paper describes how to obtain accurate 3D body models and texture of
 arbitrary people from a single, monocular video in which a person is moving.
 Based on a parametric body model, we present a robust processing pipeline
@@ -516,9 +514,9 @@ smartphone or webcam, our method enables everyone to create their own fully
 animatable digital double, e.g., for social VR applications or virtual try-on
 for online fashion shopping.
 
-Disentangling Features in 3D Face Shapes for Joint Face Reconstruction
-  and Recognition <a href="http://arxiv.org/abs/1803.11366" target="_blank">http://arxiv.org/abs/1803.11366</a>
-![1803.11366v1](http://www.arxiv-sanity.com/static/thumbs/1803.11366v1.pdf.jpg)
+#### Disentangling Features in 3D Face Shapes for Joint Face Reconstruction
+  and Recognition <a href="http://arxiv.org/abs/1803.11366" target="_blank">1803.11366</a>
+<a href="http://arxiv.org/abs/1803.11366" target="_blank">![1803.11366v1](http://www.arxiv-sanity.com/static/thumbs/1803.11366v1.pdf.jpg)</a>
 This paper proposes an encoder-decoder network to disentangle shape features
 during 3D face reconstruction from single 2D images, such that the tasks of
 reconstructing accurate 3D face shapes and learning discriminative shape
