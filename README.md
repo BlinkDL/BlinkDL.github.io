@@ -97,6 +97,24 @@ analyze factors that affect performance, and highlight opportunities for future
 work. The results are shown in the supplementary video at
 https://youtu.be/qWKUFK7MWvg
 
+#### When Image Denoising Meets High-Level Vision Tasks: A Deep Learning Approach <a href="http://arxiv.org/abs/1706.04284" target="_blank">1706.04284</a> （与其它任务联合，是正确的思路）
+<a href="http://arxiv.org/abs/1706.04284" target="_blank">![1706.04284v3](http://www.arxiv-sanity.com/static/thumbs/1706.04284v3.pdf.jpg)</a>
+Conventionally, image denoising and high-level vision tasks are handled
+separately in computer vision. In this paper, we cope with the two jointly and
+explore the mutual influence between them. First we propose a convolutional
+neural network for image denoising which achieves the state-of-the-art
+performance. Second we propose a deep neural network solution that cascades two
+modules for image denoising and various high-level tasks, respectively, and use
+the joint loss for updating only the denoising network via back-propagation. We
+demonstrate that on one hand, the proposed denoiser has the generality to
+overcome the performance degradation of different high-level vision tasks. On
+the other hand, with the guidance of high-level vision information, the
+denoising network can generate more visually appealing results. To the best of
+our knowledge, this is the first work investigating the benefit of exploiting
+image semantics simultaneously for image denoising and high-level vision tasks
+via deep learning. The code is available online
+https://github.com/Ding-Liu/DeepDenoising.
+
 ### Image Deblurring
 
 #### Learning a Discriminative Prior for Blind Image Deblurring <a href="http://arxiv.org/abs/1803.03363" target="_blank">1803.03363</a>
@@ -117,6 +135,21 @@ non-uniform deblurring.Both qualitative and quantitative experimental results
 show that our method performs favorably against state-of-the-art algorithms as
 well as domain-specific image deblurring approaches.
 
+### Image Deblock / JPEG Reconstruction
+
+#### BlockCNN: A Deep Network for Artifact Removal and Image Compression <a href="http://arxiv.org/abs/1805.11091" target="_blank">1805.11091</a>
+<a href="http://arxiv.org/abs/1805.11091" target="_blank">![1805.11091v1](http://www.arxiv-sanity.com/static/thumbs/1805.11091v1.pdf.jpg)</a>
+We present a general technique that performs both artifact removal and image
+compression. For artifact removal, we input a JPEG image and try to remove its
+compression artifacts. For compression, we input an image and process its 8 by
+8 blocks in a sequence. For each block, we first try to predict its intensities
+based on previous blocks; then, we store a residual with respect to the input
+image. Our technique reuses JPEG's legacy compression and decompression
+routines. Both our artifact removal and our image compression techniques use
+the same deep network, but with different training weights. Our technique is
+simple and fast and it significantly improves the performance of artifact
+removal and image compression.
+
 ### Image Inpaint
 
 #### Image Inpainting for Irregular Holes Using Partial Convolutions <a href="http://arxiv.org/abs/1804.07723" target="_blank">1804.07723</a>
@@ -133,6 +166,54 @@ automatically generate an updated mask for the next layer as part of the
 forward pass. Our model outperforms other methods for irregular masks. We show
 qualitative and quantitative comparisons with other methods to validate our
 approach.
+
+### Image Compression
+
+#### Generative Adversarial Networks for Extreme Learned Image Compression <a href="http://arxiv.org/abs/1804.02958" target="_blank">1804.02958</a> （GAN）
+<a href="http://arxiv.org/abs/1804.02958" target="_blank">![1804.02958v1](http://www.arxiv-sanity.com/static/thumbs/1804.02958v1.pdf.jpg)</a>
+We propose a framework for extreme learned image compression based on
+Generative Adversarial Networks (GANs), obtaining visually pleasing images at
+significantly lower bitrates than previous methods. This is made possible
+through our GAN formulation of learned compression combined with a
+generator/decoder which operates on the full-resolution image and is trained in
+combination with a multi-scale discriminator. Additionally, our method can
+fully synthesize unimportant regions in the decoded image such as streets and
+trees from a semantic label map extracted from the original image, therefore
+only requiring the storage of the preserved region and the semantic label map.
+A user study confirms that for low bitrates, our approach significantly
+outperforms state-of-the-art methods, saving up to 67% compared to the
+next-best method BPG.
+
+#### Neural Multi-scale Image Compression <a href="http://arxiv.org/abs/1805.06386" target="_blank">1805.06386</a> （很快）
+<a href="http://arxiv.org/abs/1805.06386" target="_blank">![1805.06386v1](http://www.arxiv-sanity.com/static/thumbs/1805.06386v1.pdf.jpg)</a>
+This study presents a new lossy image compression method that utilizes the
+multi-scale features of natural images. Our model consists of two networks:
+multi-scale lossy autoencoder and parallel multi-scale lossless coder. The
+multi-scale lossy autoencoder extracts the multi-scale image features to
+quantized variables and the parallel multi-scale lossless coder enables rapid
+and accurate lossless coding of the quantized variables via encoding/decoding
+the variables in parallel. Our proposed model achieves comparable performance
+to the state-of-the-art model on Kodak and RAISE-1k dataset images, and it
+encodes a PNG image of size $768 \times 512$ in 70 ms with a single GPU and a
+single CPU process and decodes it into a high-fidelity image in approximately
+200 ms.
+
+#### Deep Convolutional AutoEncoder-based Lossy Image Compression <a href="http://arxiv.org/abs/1804.09535" target="_blank">1804.09535</a>
+<a href="http://arxiv.org/abs/1804.09535" target="_blank">![1804.09535v1](http://www.arxiv-sanity.com/static/thumbs/1804.09535v1.pdf.jpg)</a>
+Image compression has been investigated as a fundamental research topic for
+many decades. Recently, deep learning has achieved great success in many
+computer vision tasks, and is gradually being used in image compression. In
+this paper, we present a lossy image compression architecture, which utilizes
+the advantages of convolutional autoencoder (CAE) to achieve a high coding
+efficiency. First, we design a novel CAE architecture to replace the
+conventional transforms and train this CAE using a rate-distortion loss
+function. Second, to generate a more energy-compact representation, we utilize
+the principal components analysis (PCA) to rotate the feature maps produced by
+the CAE, and then apply the quantization and entropy coder to generate the
+codes. Experimental results demonstrate that our method outperforms traditional
+image coding algorithms, by achieving a 13.7% BD-rate decrement on the Kodak
+database images compared to JPEG2000. Besides, our method maintains a moderate
+complexity similar to JPEG2000.
 
 ### Image Generation
 
@@ -191,7 +272,7 @@ factors and interpolates the in-between states. Another set of experiments on
 Market-1501 shows that our model can also be beneficial for the person
 re-identification task.
 
-### Image-to-image Transfer
+### Image Translation（转换到一组图片的风格）
 
 #### Multimodal Unsupervised Image-to-Image Translation <a href="http://arxiv.org/abs/1804.04732" target="_blank">1804.04732</a>
 <a href="http://arxiv.org/abs/1804.04732" target="_blank">![1804.04732v1](http://www.arxiv-sanity.com/static/thumbs/1804.04732v1.pdf.jpg)</a>
@@ -214,7 +295,7 @@ advantage of the proposed framework. Moreover, our framework allows users to
 control the style of translation outputs by providing an example style image.
 Code and pretrained models are available at https://github.com/nvlabs/MUNIT.
 
-### Style Transfer
+### Style Transfer（转换到一张图片的风格）
 
 #### Neural Style Transfer: A Review <a href="http://arxiv.org/abs/1705.04058" target="_blank">1705.04058</a> （Review）
 <a href="http://arxiv.org/abs/1705.04058" target="_blank">![1705.04058v5](http://www.arxiv-sanity.com/static/thumbs/1705.04058v5.pdf.jpg)</a>
@@ -441,7 +522,7 @@ baseline networks, particularly for reconstruction of small objects and
 refinement of distortion of edges, and outperform the state-of-the-art methods
 on benchmark datasets.
 
-### Face-Image-to-3D-Model
+### Image-to-3D-Model：Face
 
 #### Evaluation of Dense 3D Reconstruction from 2D Face Images in the Wild <a href="http://arxiv.org/abs/1803.05536" target="_blank">1803.05536</a> （Review）
 <a href="http://arxiv.org/abs/1803.05536" target="_blank">![1803.05536v2](http://www.arxiv-sanity.com/static/thumbs/1803.05536v2.pdf.jpg)</a>
@@ -528,6 +609,6 @@ the capacity of 3DMM for capturing discriminative shape features and facial
 detail, and thus outperforms existing methods both in 3D face reconstruction
 accuracy and in face recognition accuracy.
 
-### Image-to-3D-Model【太多了】
+### Image-to-3D-Model：Generic
 
-### 还有关于人脸的各种任务，待稍后补充
+### 人脸的各种任务，图像评分，美图，裁剪，白平衡，HDR，对齐，等等
